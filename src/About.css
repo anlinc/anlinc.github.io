@@ -1,0 +1,26 @@
+body {
+    font-family: "Courier New", serif;
+}
+
+@media (max-width:450px) {
+    img#browserbuttonsimg {
+        display: none
+    }
+}
+
+@media (max-width:800px) {
+    img#browsershadow {
+        display: none
+    }
+}
+.browser {
+    overflow-y: auto;
+}
+
+.zoom:hover {
+    transform: scale(1.15);
+}
+
+#navbutton:hover {
+    text-decoration: underline;
+}

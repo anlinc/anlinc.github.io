@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+}
+
+.col {
+    width: 25%;
+    height: 30%;
+    padding: 2%;
+}
+
+.imageContainer {
+    width: 75vw;
+    position: relative;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%, 0);
+}
+
+.browser {
+    overflow-y: auto;
+}
