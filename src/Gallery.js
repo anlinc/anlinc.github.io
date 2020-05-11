@@ -2,18 +2,18 @@ import React from "react";
 import "./Gallery.css"
 import browserbar from "./img/browserbar.png";
 import browserbuttons from "./img/browser-buttons.png";
-import img1 from './img/cmd-f_speech.png';
-import img2 from './img/nwhacks_group.png';
-import img3 from './img/hack4humanity.png';
-import img4 from './img/cmd-f_2020_group.png';
-import img5 from './img/cmd-f_2019_me.png';
-import img6 from './img/nwhacks_pjs.png';
-import img7 from './img/lhd_group.png';
-import img8 from './img/hackcon_me.png';
-import img9 from './img/hackcon_group.png';
-import img10 from './img/nwhacks_jess_me.png';
-import img11 from './img/surf.png';
-import img12 from './img/walle.png';
+import img1 from './img/img1.png';
+import img2 from './img/img2.png';
+import img3 from './img/img3.png';
+import img4 from './img/img4.png';
+import img5 from './img/img5.png';
+import img6 from './img/img6.png';
+import img7 from './img/img7.png';
+import img8 from './img/img8.png';
+import img9 from './img/img9.png';
+import img10 from './img/img10.png';
+import img11 from './img/img11.png';
+import img12 from './img/img12.png';
 
 const PageStyle = {
     position: 'relative',
