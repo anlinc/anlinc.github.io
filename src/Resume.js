@@ -5,7 +5,8 @@ import resume from "./img/Resume.pdf"
 const PageStyle = {
     height: '100vh',
     width: 'auto',
-    position: 'relative'
+    position: 'relative',
+    // display: "inline-block"
 };
 
 const pdf = {

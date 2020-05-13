@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+div {
+  font-family: "Courier New", serif;
+}
+
 .hello-text {
   font-family: "Courier New", serif;
   font-size: 32px;
@@ -41,4 +45,36 @@ body {
   div#hellotext {
     font-size: 15px;
   }
+}
+
+.browser {
+  overflow-y: auto;
+}
+
+.zoom:hover {
+  transform: scale(1.15);
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 25% !important;
+  height: 25% !important;
+  padding: 1.5%;
+}
+
+.imageContainer {
+  width: 75vw;
+  position: relative;
+  left: 50%;
+  top: 10px;
+  transform: translate(-50%, 0);
+}
+
+@media (max-width:450px) {
+    img#browserbuttonsimg {
+        display: none
+    }
 }
