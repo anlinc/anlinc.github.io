@@ -6,7 +6,7 @@ import Resume from "./Resume";
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 import {Nav, Navbar} from "react-bootstrap";
-import {Switch, Route, BrowserRouter} from "react-router-dom";
+import {Switch, Route, HashRouter} from "react-router-dom";
 
 const buttonStyle = {
     background: 'transparent',
@@ -36,23 +36,21 @@ const pageContainer = {
 
 ReactDOM.render(
   <React.StrictMode>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename="/">
           <Switch>
               <Route path="/resume" component={Resume}/>
               <Route path="/" component={Home} exact/>
           </Switch>
-      </BrowserRouter>
-      <Navbar bg='transparent' expand='lg' style={navbarStyle}>
-          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-          <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className='ml-auto'>
-                  <Nav.Link style={buttonStyle} href="/" id="navbutton">Home</Nav.Link>
-                  {/*<Nav.Link style={buttonStyle} onClick={scrollToAbout} id="navbutton">About Me</Nav.Link>*/}
-                  {/*<Nav.Link style={buttonStyle} onClick={scrollToMemories} id="navbutton">Memories</Nav.Link>*/}
-                  <Nav.Link style={buttonStyle} href="/resume" id="navbutton">Resume</Nav.Link>
-              </Nav>
-          </Navbar.Collapse>
-      </Navbar>
+          <Navbar bg='transparent' expand='lg' style={navbarStyle}>
+              <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+              <Navbar.Collapse id="basic-navbar-nav">
+                  <Nav className='ml-auto'>
+                      <Nav.Link style={buttonStyle} href="/#/" id="navbutton">Home</Nav.Link>
+                      <Nav.Link style={buttonStyle} href="/#/resume" id="navbutton">Resume</Nav.Link>
+                  </Nav>
+              </Navbar.Collapse>
+          </Navbar>
+      </HashRouter>
       <div style={pageContainer}>
       </div>
   </React.StrictMode>,
