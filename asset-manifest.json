@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.38be74e1.chunk.css",
-    "main.js": "/static/js/main.a386aede.chunk.js",
-    "main.js.map": "/static/js/main.a386aede.chunk.js.map",
+    "main.js": "/static/js/main.7f44fcbd.chunk.js",
+    "main.js.map": "/static/js/main.7f44fcbd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a003cd48.js",
     "runtime-main.js.map": "/static/js/runtime-main.a003cd48.js.map",
     "static/css/2.89f067aa.chunk.css": "/static/css/2.89f067aa.chunk.css",
-    "static/js/2.5e23289c.chunk.js": "/static/js/2.5e23289c.chunk.js",
-    "static/js/2.5e23289c.chunk.js.map": "/static/js/2.5e23289c.chunk.js.map",
+    "static/js/2.7fcdea79.chunk.js": "/static/js/2.7fcdea79.chunk.js",
+    "static/js/2.7fcdea79.chunk.js.map": "/static/js/2.7fcdea79.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.13128a449803889b921dab5e7fdcc531.js": "/precache-manifest.13128a449803889b921dab5e7fdcc531.js",
+    "precache-manifest.a07da4b8306ea341eb617e64a883c248.js": "/precache-manifest.a07da4b8306ea341eb617e64a883c248.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.89f067aa.chunk.css.map": "/static/css/2.89f067aa.chunk.css.map",
     "static/css/main.38be74e1.chunk.css.map": "/static/css/main.38be74e1.chunk.css.map",
-    "static/js/2.5e23289c.chunk.js.LICENSE.txt": "/static/js/2.5e23289c.chunk.js.LICENSE.txt",
+    "static/js/2.7fcdea79.chunk.js.LICENSE.txt": "/static/js/2.7fcdea79.chunk.js.LICENSE.txt",
     "static/media/Resume.pdf": "/static/media/Resume.4f6e4557.pdf",
     "static/media/home-background.png": "/static/media/home-background.87758974.png",
     "static/media/img1.jpg": "/static/media/img1.8ceb5203.jpg",
@@ -33,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.a003cd48.js",
     "static/css/2.89f067aa.chunk.css",
-    "static/js/2.5e23289c.chunk.js",
+    "static/js/2.7fcdea79.chunk.js",
     "static/css/main.38be74e1.chunk.css",
-    "static/js/main.a386aede.chunk.js"
+    "static/js/main.7f44fcbd.chunk.js"
   ]
 }
