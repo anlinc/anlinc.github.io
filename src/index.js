@@ -7,6 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 import {Nav, Navbar} from "react-bootstrap";
 import {Switch, Route, HashRouter} from "react-router-dom";
+import $ from "jquery";
 
 const buttonStyle = {
     background: 'transparent',
@@ -34,6 +35,12 @@ const pageContainer = {
     top: "0"
 };
 
+function scrollToTop() {
+    $("html, body").animate(({
+        scrollTop: 0
+    }));
+}
+
 ReactDOM.render(
   <React.StrictMode>
       <HashRouter basename="/">
@@ -45,7 +52,7 @@ ReactDOM.render(
               <Navbar.Toggle aria-controls="basic-navbar-nav"/>
               <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className='ml-auto'>
-                      <Nav.Link style={buttonStyle} href="/#/" id="navbutton">Home</Nav.Link>
+                      <Nav.Link style={buttonStyle} href="/#/" id="navbutton" onClick={scrollToTop}>Home</Nav.Link>
                       <Nav.Link style={buttonStyle} href="/#/resume" id="navbutton">Resume</Nav.Link>
                   </Nav>
               </Navbar.Collapse>

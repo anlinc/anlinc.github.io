@@ -9,7 +9,6 @@ import insta from "./img/insta.png";
 import linkedin from "./img/linkedin.png";
 import mail from "./img/mail.png";
 import github from "./img/github.png";
-import browserimg from "./img/browser.png";
 import img1 from "./img/img1.jpg";
 import img2 from "./img/img2.jpg";
 import img3 from "./img/img3.jpg";
@@ -22,6 +21,10 @@ import img9 from "./img/img9.jpg";
 import img10 from "./img/img10.jpg";
 import img11 from "./img/img11.jpg";
 import img12 from "./img/img12.jpg";
+import bookshelf from "./img/bookshelf.png";
+import fma from "./img/fma.jpg";
+import testaments from "./img/testaments.jpg";
+import tbp from "./img/tbp.jpg";
 
 const petalLeft = {
     position: "absolute",
@@ -43,9 +46,7 @@ const aboutBrowserContainer = {
     width: "85vw",
     height: "75vh",
     display: "inline-block",
-    backgroundImage: `url(${browserimg})`,
-    backgroundPosition: "center center",
-    backgroundSize: "cover",
+    backgroundColor: "#FFF3C7",
 };
 
 const memoriesBrowserContainer = {
@@ -147,6 +148,48 @@ const PageStyle = {
     height: '100vh',
     width: 'auto',
     position: 'relative'
+};
+
+const bookshelfStyle = {
+    position: "relative",
+    left: "50%",
+    msTransform: "translate(-50%, 0)",
+    transform: "translate(-50%, 0)",
+    width: '70vw',
+    height: "auto"
+};
+
+const bookshelfContainer = {
+    position: "absolute",
+    left: "50%",
+    top: "60%",
+    msTransform: "translate(-50%, -50%)",
+    transform: "translate(-50%, -50%)",
+};
+
+const CurrentlyReadingText = {
+    fontSize: "32px",
+    position: "relative",
+    top: "10%",
+    left: "50%",
+    msTransform: "translate(-50%, 0)",
+    transform: "translate(-50%, 0)",
+    textAlign: "center"
+};
+
+const book = {
+    width: "22%",
+    height: "auto",
+    padding: "1%"
+};
+
+const books = {
+    position: "relative",
+    display: "flex",
+    left: "50%",
+    msTransform: "translate(-50%, 0)",
+    transform: "translate(-50%, 0)",
+    justifyContent: "center"
 };
 
 function Home() {
@@ -251,6 +294,19 @@ function Home() {
                 </div>
             </div>
             {/* End of Memories */}
+            {/* Beginning of Books */}
+            <div className="Books" style={PageStyle}>
+                <div style={CurrentlyReadingText}>Currently Reading or Watching</div>
+                <div style={bookshelfContainer}>
+                    <div style={books}>
+                        <img src={testaments} style={book} alt="The Testaments"/>
+                        <img src={tbp} style={book} alt="The Three Body Problem"/>
+                        <img src={fma} style={book} alt="Fullmetal Alchemist: Brotherhood"/>
+                    </div>
+                    <img src={bookshelf} style={bookshelfStyle} alt="bookshelf"/>
+                </div>
+            </div>
+            {/* End of Books */}
         </div>
     );
 }
