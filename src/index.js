@@ -8,24 +8,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import {Nav, Navbar} from "react-bootstrap";
 import {Switch, Route, BrowserRouter} from "react-router-dom";
 
-// function scrollToAbout() {
-//     let nav = $('.About');
-//     if (nav.length) {
-//         $("html, body").animate(({
-//             scrollTop: nav.offset().top
-//         }));
-//     }
-// }
-//
-// function scrollToMemories() {
-//     let nav = $('.Gallery');
-//     if (nav.length) {
-//         $("html, body").animate(({
-//             scrollTop: nav.offset().top
-//         }));
-//     }
-// }
-
 const buttonStyle = {
     background: 'transparent',
     border: '1px solid black',
@@ -54,7 +36,7 @@ const pageContainer = {
 
 ReactDOM.render(
   <React.StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Switch>
               <Route path="/resume" component={Resume}/>
               <Route path="/" component={Home} exact/>
