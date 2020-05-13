@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6018e993a105de86a97dfd419f76eb0",
+    "revision": "d3503e2923bd662b48514d5516c6aef8",
     "url": "/index.html"
   },
   {
-    "revision": "4f240acbe5d19ab06440",
+    "revision": "f212e4a0be90dc6522a0",
     "url": "/static/css/2.89f067aa.chunk.css"
   },
   {
-    "revision": "3f9b0a49631ddcdfb358",
+    "revision": "030113b845dbf08d3443",
     "url": "/static/css/main.38be74e1.chunk.css"
   },
   {
-    "revision": "4f240acbe5d19ab06440",
-    "url": "/static/js/2.7fcdea79.chunk.js"
+    "revision": "f212e4a0be90dc6522a0",
+    "url": "/static/js/2.f047d96a.chunk.js"
   },
   {
-    "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.7fcdea79.chunk.js.LICENSE.txt"
+    "revision": "4386012a6d334684338618496b7aac20",
+    "url": "/static/js/2.f047d96a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f9b0a49631ddcdfb358",
-    "url": "/static/js/main.7f44fcbd.chunk.js"
+    "revision": "030113b845dbf08d3443",
+    "url": "/static/js/main.96348c96.chunk.js"
   },
   {
     "revision": "92279e9b33b87e792c12",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4f6e4557fa91c651ecd295e2d6a2842b",
     "url": "/static/media/Resume.4f6e4557.pdf"
+  },
+  {
+    "revision": "59abaf09c2f1c5ce6ef464aa379296aa",
+    "url": "/static/media/bookshelf.59abaf09.png"
+  },
+  {
+    "revision": "e21a6d60b1f3b272ce63d1ff32228bf8",
+    "url": "/static/media/fma.e21a6d60.jpg"
   },
   {
     "revision": "877589744c1fd9df1007b0de45bfe028",
@@ -86,5 +94,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d43b97ef3468ae04fe979fd86e5e3f2f",
     "url": "/static/media/mail.d43b97ef.png"
+  },
+  {
+    "revision": "66e4974bf547bf99e19618ea785b43ef",
+    "url": "/static/media/tbp.66e4974b.jpg"
+  },
+  {
+    "revision": "6d81b0ecdd41c5c04c018ac7dffc54c8",
+    "url": "/static/media/testaments.6d81b0ec.jpg"
   }
 ]);
